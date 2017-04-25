@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_box_default_value"
+        android:key="@string/pref_show_box_key"
+        android:summaryOff="@string/pref_summary_hidden"
+        android:summaryOn="@string/pref_summary_shown" />
 
 </PreferenceScreen>

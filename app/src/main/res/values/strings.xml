@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SharedPreferencesSample</string>
     <string name="settings">Settings</string>
+    <string name="pref_show_box_key">show_box</string>
+    <string name="pref_summary_shown">Shown</string>
+    <string name="pref_summary_hidden">Hidden</string>
 </resources>
