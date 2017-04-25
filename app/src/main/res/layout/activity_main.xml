@@ -10,8 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="jonss.com.github.sharedpreferencessample.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/box_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#000"
+        android:layout_width="200sp"
+        android:layout_height="200sp"/>
+
 </RelativeLayout>
